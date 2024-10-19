@@ -8,7 +8,7 @@ import {
 import styles from "./Card.module.css";
 import tasks from "./data";
 import { FaClockRotateLeft } from "react-icons/fa6";
-import { motion, useDragControls } from "framer-motion";
+import { motion } from "framer-motion";
 function Card({ reference }) {
   return (
     <>
