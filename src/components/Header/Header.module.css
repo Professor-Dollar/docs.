@@ -1,0 +1,117 @@
+.nav {
+    display: flex;
+    position: absolute;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--slate-500);
+    width: 100%;
+    height: 6vw;
+}
+
+.ownthecode {
+    position: relative;
+}
+
+.ownthecode > p {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.ownthecode > span {
+    position: absolute;
+    right: -30px;
+    color: var(--gold-text);
+    letter-spacing: 0;
+    line-height: 0;
+    font-size: 55px;
+    font-family: "Qalisha Signature Script";
+}
+
+.navMiddle {
+    font-family: 'Anke';
+    font-size: 22px;
+}
+
+.navRight {
+    display: flex;
+    text-transform: lowercase;
+    gap: 10px;
+    font-size: 15px;
+}
+
+/* Breakpoints for responsiveness */
+@media (max-width: 1200px) {
+    .nav {
+        padding: 0 20px; /* Adjust padding for medium screens */
+        height: 8vw; /* Increase height for better layout */
+    }
+
+    .ownthecode > p {
+        font-size: 30px; /* Adjust font size for medium screens */
+    }
+
+    .ownthecode > span {
+        font-size: 50px; /* Adjust font size for medium screens */
+        right: -20px; /* Adjust position */
+    }
+
+    .navMiddle {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .navRight {
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .ownthecode > p {
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+
+    .ownthecode > span {
+        font-size: 40px; /* Adjust font size for smaller screens */
+        right: -10px; /* Adjust position */
+    }
+
+    .navMiddle {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .navRight {
+        font-size: 15px; /* Adjust font size */
+        gap: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 0 15px; /* Further reduce padding for very small screens */
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .ownthecode > p {
+        font-size: 25px; /* Adjust font size for very small screens */
+    }
+
+    .ownthecode > span {
+        margin-left: 200px;
+        font-size: 45px; /* Adjust font size for very small screens */
+        right: 0; /* Center position */
+    }
+
+    .navMiddle {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .navRight {
+        font-size: 14px; /* Adjust font size */
+    }
+}

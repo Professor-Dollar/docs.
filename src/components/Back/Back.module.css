@@ -1,0 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/qalisha-signature-script');
+@import url('https://fonts.cdnfonts.com/css/anke');
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--zinc-600);
+  user-select: none;
+  font-size: 14rem;
+  font-weight: bold;
+}
